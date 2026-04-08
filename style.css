@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar style start */
+nav{
+    width: 100vw;
+    height: 10vh;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+}
+nav .logo p{
+font-size: 20px;
+font-weight: bold;
+float: left;
+color: white;
+text-transform: uppercase;
+cursor: pointer;
+}
+nav ul{
+    float: left;
+    margin-left: 10%;
+}
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color:white;
+    text-decoration: none;  
+}
+nav .user button{
+    
+    float: right;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    background-color: lightblue;
+    color: blue;
+    border-radius: 5px;
+    padding: 1px 30px;
+    display: inline;
+    margin-top: 20px;
+    margin-right: 50px ;
+}
+/* nav-style-end */
+/* main start */
+/* left-container-style start here */
+
+.left-container{
+    /* main-container style */
+     height: 50vh;
+     width: 20%;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    display: inline-block;
+
+}
+.left-container h2{
+    /* h2-text style */
+ color: rgb(34, 104, 127);
+}
+/* button-style */
+.left-container button{
+ color:#fff;
+ background-color: #033747;
+ width: 30vw;
+ height: 8vh;
+ border-radius: 10px;
+}
+/* button-hover style */
+.left-container button:hover{
+cursor: pointer;
+text-transform: uppercase;
+background-color: aqua;
+}
+/* right-container style start here */
+.right-container{
+    /* main container style */
+    float: right;
+    margin-top: 100px;
+    height: 50px;
+   width: 50%;
+}
+/* image-style */
+.right-container img{
+    float: right;
+    margin-top:20vh;
+    margin-right: 20vh;
+    border: 2px solid black;
+}
+
+
